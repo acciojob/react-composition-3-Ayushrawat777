@@ -1,26 +1,24 @@
-
-.tooltip{
-  /* width: fit-content; */
- cursor: pointer;
- position: relative;
-}
-
-.tooltip-text{
-  width: fit-content;
-  padding: 1rem;
-  background-color: crimson;
-  color: white;
-  font-size: 1rem;
-  display: none;
-  position: absolute;
-  z-index: 22;
-  left: 7%;
-  top: 90%;
-  border-radius: 0 10px 10px 10px;
-}
-.child{
-  padding:1rem;
-  width:fit-content;
+.tooltip {
+  width: 300px;
+  border-bottom: 2px solid grey;
   position: relative;
-  z-index:11;
+  cursor: pointer;
+  height: 50px;
+  margin: 60px;
+  top: 2rem;
+}
+
+.tooltiptext {
+  position: absolute;
+  background-color: red;
+  color: #fff;
+  left: 21px;
+  width: 119px;
+  padding: 6px;
+  position: absolute;
+  top: -80px;
+  border-radius: 9px;
+  border: none;
+  color: #fff;
+  text-align: center;
 }
